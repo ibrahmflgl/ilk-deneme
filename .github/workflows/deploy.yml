@@ -1,0 +1,13 @@
+name: Deploy to Coolify
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Coolify Deployment
+        run: |
+          curl -X GET "http://46.225.108.255.nip.io/api/v1/deploy?uuid=mwo08084so8o0og8o4s40g0c&force=false"
