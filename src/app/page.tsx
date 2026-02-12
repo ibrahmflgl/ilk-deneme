@@ -1,3 +1,3 @@
 export default function Home() {
-  return <h1>bakalım bu işe yaricak mı  🚀</h1>;
+  return <h1>webhook değişikliği   🚀</h1>;
 }
