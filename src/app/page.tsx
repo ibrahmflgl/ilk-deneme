@@ -1,3 +1,3 @@
 export default function Home() {
-  return <h1>kendi sunucumuzu kurduk</h1>;
+  return <h1>SENİ ÇOK SEVİYORUM ASYA FİLOĞLU</h1>;
 }
